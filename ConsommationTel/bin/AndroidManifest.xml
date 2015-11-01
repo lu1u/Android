@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lpi.consommationtel"
+    android:versionCode="1"
+    android:versionName="0.9" android:installLocation="auto">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:configChanges="keyboardHidden|orientation">
+
+        <receiver
+            android:name="com.lpi.consommationtel.ConsotelWidgetProvider"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/widgetname_color"
+            android:logo="@drawable/ic_launcher" >
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget" />
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.lpi.consommationtel.changed" />
+                <action android:name="lpi.consotelephone.widget.time_update" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+       
+        <service android:name=".Service.ConsommationTelephoneService" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+            </intent-filter>
+        </service>
+        <activity android:name="Configuration" android:windowSoftInputMode="stateHidden">
+             <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

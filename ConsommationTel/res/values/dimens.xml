@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margeJaugesRondes">2mm</dimen>
+    <dimen name="ligneEpaisseJaugesRondes">1.5mm</dimen>
+    <dimen name="ligneFineJaugesRondes">0.3mm</dimen>
+    <dimen name="tailleTexteJaugesRondes">1.5mm</dimen>
+   <dimen name="margeBarres">0.3mm</dimen>
+    
+</resources>

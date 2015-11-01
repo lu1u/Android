@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="renderers">
+        <item>Barres en couleur</item>
+        <item>Barres monochrome</item>
+        <item>Barres bleues</item>
+        <item>Barres plates</item>
+        <item>Barres arrondies</item>
+        <item>Rondes en couleur</item>
+        <item>Rondes monochromes</item>
+    </string-array>
+    <string-array name="renderers_values">
+        <item>com.lpi.consommationtel.Renderers.ColorBars</item>
+        <item>com.lpi.consommationtel.Renderers.MonoBars</item>
+        <item>com.lpi.consommationtel.Renderers.BlueBars</item>
+        <item>com.lpi.consommationtel.Renderers.FlatBars</item>
+        <item>com.lpi.consommationtel.Renderers.RoundBars</item>
+        <item>com.lpi.consommationtel.Renderers.Round</item>
+        <item>com.lpi.consommationtel.Renderers.RoundMono</item>
+    </string-array>
+
+</resources>

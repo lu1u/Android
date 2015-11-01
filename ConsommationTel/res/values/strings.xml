@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Consommation Téléphone</string>
+    <string name="widgetname_color">__Consommation téléphone</string>
+    <string name="labelBatterie">Batterie</string>
+    <string name="labelCharge">En charge</string>
+    <string name="labelPasEnCharge">Batterie</string>
+   <string name="labelDecharge">En décharge</string>
+   <string name="labelPleine">Pleine</string>
+   <string name="labelSurchauffe">Surchauffe!</string>
+   <string name="labelMorte">Morte!</string>
+   <string name="labelPanne">En panne!</string>
+   <string name="labelFroide">Froide!</string>
+   <string name="labelSurtension">Surtension!</string>
+   <string name="labelInconnu">Inconnu</string>
+   <string name="labelOK">OK</string>
+   <string name="labelAnnuler">Annuler</string>
+   <string name="carteSIM1">Carte SIM 1:</string>
+   <string name="carteSIM2">Carte SIM 2 :</string>
+   <string name="fondTransparent">Fond transparent</string>
+   <string name="typeAffichage">Type d\'affichage:</string>
+   <string name="nom">Nom:</string>
+   <string name="nbMinutesParMois">Minutes par mois:</string>
+   <string name="debutAbonnement">Début abonnement:</string>
+   <string name="oui">Oui</string>
+   <string name="non">Non</string>
+   <string name="typeJauges">Type de jauges:</string>
+   <string name="typeaffichage">Choisissez le type d\'affichage des informations du widget</string>
+   
+</resources>
